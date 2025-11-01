@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Departments - MyUniversity</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <style>
+    .department-hero {
+      background-image: url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 120px 0;
+      text-align: center;
+    }
+    .footer {
+      background-image: url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 40px 0;
+    }
+    .footer a {
+      color: #f8f9fa;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">MyUniversity</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="departments.html" role="button" data-bs-toggle="dropdown">Departments</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="CS.html">Computer Science</a></li>
+              <li><a class="dropdown-item" href="BS.html">Business International</a></li>
+              <li><a class="dropdown-item" href="SF.html">Software Engineering</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Admissions</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="department-hero">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Our Departments</h1>
+      <p class="lead">Explore our fields of study and academic excellence</p>
+    </div>
+  </section>
+
+  <!-- Departments List -->
+  <div class="container my-5">
+
+    <!-- Computer Science -->
+    <h2 id="cs" class="mt-5 text-primary">Computer Science</h2>
+    
+::contentReference[oaicite:0]{index=0}
+
+    <p>The Computer Science department prepares students for careers in computing, AI, cybersecurity, and more.</p>
+
+    <h4>Subjects Offered:</h4>
+    <ul>
+      <li>Artificial Intelligence & Machine Learning</li>
+      <li>Computer Networks & Cybersecurity</li>
+      <li>Operating Systems and Distributed Computing</li>
+      <li>Database Systems & Data Mining</li>
+      <li>Programming Fundamentals (Python, Java, C++)</li>
+      <li>Mobile & Web Application Development</li>
+    </ul>
+
+    <hr>
+
+    <!-- Business International -->
+    <h2 id="bi" class="mt-5 text-primary">Business International</h2>
+    
+::contentReference[oaicite:1]{index=1}
+
+    <p>This department focuses on global business, finance, marketing, and international relations.</p>
+
+    <h4>Subjects Offered:</h4>
+    <ul>
+      <li>International Trade & Economics</li>
+      <li>Financial Management & Accounting</li>
+      <li>Marketing Strategy & Consumer Behavior</li>
+      <li>Business Communication & Leadership</li>
+      <li>Supply Chain & Logistics Management</li>
+      <li>Entrepreneurship & Startup Management</li>
+    </ul>
+
+    <hr>
+
+    <!-- Software Engineering -->
+    <h2 id="se" class="mt-5 text-primary">Software Engineering</h2>
+    
+::contentReference[oaicite:2]{index=2}
+
+    <p>The Software Engineering department provides hands-on skills for designing and developing software solutions.</p>
+
+    <h4>Subjects Offered:</h4>
+    <ul>
+      <li>Software Design & Architecture</li>
+      <li>Agile Development & Project Management</li>
+      <li>Human-Computer Interaction (UI/UX)</li>
+      <li>Data Structures & Algorithms</li>
+      <li>Cloud Computing & DevOps</li>
+      <li>Quality Assurance & Software Testing</li>
+    </ul>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <p>&copy; 2025 MyUniversity. All rights reserved.</p>
+      <p>
+        <a href="#">Privacy Policy</a> |
+        <a href="#">Terms of Use</a> |
+        <a href="#">Contact Us</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

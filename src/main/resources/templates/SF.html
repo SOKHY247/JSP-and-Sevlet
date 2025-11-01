@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Software Engineering - MyUniversity</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+.hero {
+  background-image: url('https://images.unsplash.com/photo-1517430816045-df4b7de1cd0e');
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0;
+  text-align: center;
+  color: #fff;
+}
+.section-title {
+  font-weight: bold;
+  color: #0d6efd;
+}
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+.footer {
+  background-image: url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b');
+  background-size: cover;
+  color: white;
+  padding: 40px 0;
+}
+.footer a { color: white; text-decoration: none; }
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">MyUniversity</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="AboutPage.html">About</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">Departments</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="CS.html">Computer Science</a></li>
+            <li><a class="dropdown-item" href="BS.html">Business International</a></li>
+            <li><a class="dropdown-item" href="SF.html">Software Engineering</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#">Admissions</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <h1>Software Engineering Department</h1>
+  <p>Mastering the craft of building modern software</p>
+</section>
+
+<!-- Subjects -->
+<div class="container my-5">
+  <h3 class="section-title">Subjects Offered</h3>
+  <ul class="mb-4">
+    <li>Software Architecture</li>
+    <li>Agile Methods & Scrum</li>
+    <li>UI/UX Design</li>
+    <li>DevOps & Cloud Services</li>
+    <li>Testing & Quality Assurance</li>
+    <li>Data Structures and Algorithms</li>
+  </ul>
+
+  <!-- Study Features Cards -->
+  <h3 class="section-title mb-3">Class Study & Learning Features</h3>
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card shadow-sm">
+        <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d" class="card-img-top" alt="Team Project">
+        <div class="card-body">
+          <h5 class="card-title">Team Projects</h5>
+          <p class="card-text">Learn collaboration with real-world software development teamwork.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow-sm">
+        <img src="https://images.unsplash.com/photo-1581092334714-975fcd8a1d0c" class="card-img-top" alt="Coding Labs">
+        <div class="card-body">
+          <h5 class="card-title">Advanced Coding Labs</h5>
+          <p class="card-text">Hands-on development with modern tools and environments.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow-sm">
+        <img src="https://images.unsplash.com/photo-1525182008055-f88b95ff7980" class="card-img-top" alt="UI/UX Design">
+        <div class="card-body">
+          <h5 class="card-title">UI/UX Design Studio</h5>
+          <p class="card-text">Build user-friendly designs using industry standard methods.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer text-center">
+  <p>© 2025 MyUniversity — Software Engineering</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
